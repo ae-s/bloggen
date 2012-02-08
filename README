@@ -1,0 +1,16 @@
+This is one heap of bad decisions.
+
+None of this is really expected to make sense to anyone, not even me
+in a week.  As far as I can tell, m4 was designed as a way for hackers
+to do puzzle games while still appearing to be getting actual work
+done.
+
+Lessons learned:
+
+* Modularity and code reuse in m4 is fantastically difficult.
+
+* Emacs' m4-mode doesn't properly handle coloring the $# variable; it
+  thinks it's a begin-comment delimiter.
+
+* My system's m4 doesn't have the changesyntax builtin.  In
+  retrospect, this is probably good.
