@@ -1,4 +1,8 @@
-This is one heap of bad decisions.
+This is one heap of bad decisions.  I can already feel the technical
+debt piling up, if you can believe it.
+
+But hey, I'm implementing a blog-post DSL in m4.  What do you expect,
+beauty?
 
 None of this is really expected to make sense to anyone, not even me
 in a week.  As far as I can tell, m4 was designed as a way for hackers
@@ -13,7 +17,7 @@ Lessons learned:
   thinks it's a begin-comment delimiter.
 
 * My system's m4 doesn't have the changesyntax builtin.  In
-  retrospect, this is probably good.
+  retrospect, this is probably a good thing.
 
 --
 
@@ -36,5 +40,6 @@ Name the files «whatever.html.m».
 
 Then type
 
-  make whatever.html
+  make whatever.html tag-foo.html tag-bar.html tag-baz.html
 
+Sooner or later, this will be automated away.
