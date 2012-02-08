@@ -14,3 +14,27 @@ Lessons learned:
 
 * My system's m4 doesn't have the changesyntax builtin.  In
   retrospect, this is probably good.
+
+--
+
+To use this program, create some posts similar to this: (order of post
+components does not matter)
+
+
+  post(
+  title(Secodary post dude)
+  text(«<p>dude.</p>
+  
+  <p>DUDE.</p>»)
+  tags(foo, bar, baz)
+  date(12-Feb-2012)
+  author(Duncan)
+  )
+
+
+Name the files «whatever.html.m».
+
+Then type
+
+  make whatever.html
+
